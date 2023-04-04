@@ -19,7 +19,9 @@ import com.smart.entities.User;
 
 @Controller
 public class HomeController {
-	
+
+
+	System.out.println("Hi shyam");
 	@Autowired
 	private UserRepository userRepository;
 	
